@@ -1,0 +1,29 @@
+# Środowisko i sekrety
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+secrets.*
+credentials.*
+keystore.properties
+
+# Zależności i build
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# IDE / system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.local
